@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">IdeaPlatformContest</string>
+    <string name="product_search_hint">Поиск товаров</string>
+    <string name="main_screen_title">Список товаров</string>
+    <string name="edit_button_content_description">Редактировать</string>
+    <string name="delete_button_content_description">Удалить</string>
+    <string name="error_title">Произошла ошибка</string>
+    <string name="cancel">Отмена</string>
+    <string name="confirm">Принять</string>
+    <string name="deleting_product_title">Удаление товара</string>
+    <string name="warning_icon_description">Иконка предупреждения</string>
+    <string name="confirmation_title">Да</string>
+    <string name="decline_title">Нет</string>
+    <string name="deleting_product_dialog_info">Вы действительно хотите удалить выбранный товар?</string>
+    <string name="settings_icon_description">Иконка настроек</string>
+    <string name="changing_amount_dialog_title">Количество товара</string>
+    <string name="decrease_button_description">Кнопка уменьшения</string>
+    <string name="increase_button_description">Кнопка увеличения</string>
 </resources>
