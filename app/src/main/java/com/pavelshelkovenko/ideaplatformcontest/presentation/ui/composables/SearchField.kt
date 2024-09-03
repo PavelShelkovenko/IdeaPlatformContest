@@ -56,7 +56,8 @@ fun SearchField(
             unfocusedContainerColor = MaterialTheme.colorScheme.onPrimary,
             focusedBorderColor = MaterialTheme.colorScheme.tertiary,
             focusedLabelColor = MaterialTheme.colorScheme.onTertiary
-        )
+        ),
+        maxLines = 1,
     )
 }
 

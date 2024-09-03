@@ -11,6 +11,7 @@ import kotlinx.coroutines.flow.debounce
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.launchIn
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.mapLatest
 import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.launch
@@ -34,6 +35,7 @@ class MainViewModel(
             .onStart { emit("") }
             .distinctUntilChanged()
             .debounce(500)
+            .map { it.trim() }
             .mapLatest(::search)
             .flowOn(Dispatchers.Default)
             .launchIn(viewModelScope)
